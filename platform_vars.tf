@@ -3,6 +3,7 @@ variable "vpc" {
 }
 
 variable "cidr" {
+  type        = list(string)
   description = "cidr block"
 }
 
